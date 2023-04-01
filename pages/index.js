@@ -19,28 +19,12 @@ export default function Home() {
 
       {/* <Script src="/js/src.js" strategy="lazyOnload" /> */}
 
-      <nav>
-        <ul>
-          <Link href="/"><li>Home</li></Link>
-          <Link href="/about"><li>About</li></Link>
-          <Link href="/blogs"><li>Blogs</li></Link>
-        </ul> 
-      </nav>
-
       <main className={styles.main}>
       <div>
         <h1>Hunting Coder</h1>
         <br />
         <p>A Blog for Hunting Coders </p>
         <br />
-
-        <div className="blogs">
-          <h1>Blogs</h1>
-          <div className="blogItem">
-              <h3>blog title</h3>
-              <p>blog details</p>
-          </div>
-        </div>
       </div>
       </main>
     </>
